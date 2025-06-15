@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hourglass - Income & Time Tracker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hourglass - Precision Income & Time Tracking">
+    <!-- Cache control -->
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Optimized CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/hourglass.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- App Header -->
+    <header class="app-header">
+        <div class="container">
+            <img src="assets/hourglass.png" alt="Hourglass App Icon" class="app-icon">
+            <h1 class="display-4"><b>Hourglass</b></h1>
+            <h2 class="lead text-center">Precision Income & Time Tracking</h2>
+            <div class="mt-4">
+                <a href="#download" class="btn btn-outline-light btn-lg">
+                    Download Now
+                </a>
+                <a href="mailto:jared.wogan@gmail.com" class="btn btn-outline-light btn-lg">
+                    Contact Support
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- App Features -->
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-cash-stack"></i>
+                        </div>
+                        <h3>Income Tracking</h3>
+                    </div>
+                    <p class="text-center">
+                        Know your worth—effortlessly track earnings from multiple projects, tasks, and pay rates, with overtime included!
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-clock"></i>
+                        </div>
+                        <h3>Time Analysis</h3>
+                    </div>
+                    <p class="text-center">
+                        Understand your time investment - calculates wages earned accross many different projects and tasks with different payrates, including overtime!
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-lock"></i>
+                        </div>
+                        <h3>Privacy First</h3>
+                    </div>
+                    <p class="text-center">
+                        Your data stays on your device. No cloud storage, no tracking—just your personal financial insights when you need them.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Screenshots -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Simple. Powerful. Effective.</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-3 col-6">
+                    <img src="assets/screenshots/Home.PNG" alt="Dashboard view" class="img-fluid screenshot-img">
+                </div>
+                <div class="col-md-3 col-6">
+                    <img src="assets/screenshots/Projects.PNG" alt="Project management" class="img-fluid screenshot-img">
+                </div>
+                <div class="col-md-3 col-6">
+                    <img src="assets/screenshots/Insights.PNG" alt="Insights" class="img-fluid screenshot-img">
+                </div>
+                <div class="col-md-3 col-6">
+                    <img src="assets/screenshots/Export.PNG" alt="Export your data" class="img-fluid screenshot-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">Ready to Take Control of Your Time?</h2>
+                    <p class="lead mb-5">Hourglass is available now on the App Store and Google Play</p>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <!-- iOS Button -->
+                        <a href="#" class="btn download-btn text-white">
+                            <i class="bi bi-apple fs-5 me-2"></i>
+                            <span>Download</span>
+                        </a>
+
+                        <!-- Android Button -->
+                        <a href="#" class="btn download-btn text-white">
+                            <i class="bi bi-google-play fs-5 me-2"></i>
+                            <span>Download</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Sections -->
+    <section class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="text-center mb-4">Legal Information</h2>
+
+                <!-- EULA Accordion -->
+                <div class="mb-4">
+                    <div class="accordion" id="eulaAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="eulaHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eulaCollapse" aria-expanded="false" aria-controls="eulaCollapse">
+                                    End User License Agreement (EULA)
+                                </button>
+                            </h2>
+                            <div id="eulaCollapse" class="accordion-collapse collapse" aria-labelledby="eulaHeading" data-bs-parent="#eulaAccordion">
+                                <div class="accordion-body">
+                                    <h4>LICENSED APPLICATION END USER LICENSE AGREEMENT</h4>
+                                    <p>Apps made available through the App Store are licensed, not sold, to you. Your license to each App is subject to your prior acceptance of either this Licensed Application End User License Agreement ("Standard EULA"),
+                                        or a custom end user license agreement between you and the Application Provider ("Custom EULA"), if one is provided.</p>
+
+                                    <h5 class="mt-4">a. Scope of License</h5>
+                                    <p>Licensor grants to you a nontransferable license to use the Licensed Application on any Apple-branded products that you own or control and as permitted by the Usage Rules. The terms of this Standard EULA will govern
+                                        any content, materials, or services accessible from or purchased within the Licensed Application as well as upgrades provided by Licensor that replace or supplement the original Licensed Application, unless such
+                                        upgrade is accompanied by a Custom EULA.</p>
+                                    <p>Except as provided in the Usage Rules, you may not distribute or make the Licensed Application available over a network where it could be used by multiple devices at the same time. You may not transfer, redistribute
+                                        or sublicense the Licensed Application and, if you sell your Apple Device to a third party, you must remove the Licensed Application from the Apple Device before doing so.</p>
+
+                                    <h5 class="mt-4">b. Consent to Use of Data</h5>
+                                    <p>You agree that Licensor may collect and use technical data and related information—including but not limited to technical information about your device, system and application software, and peripherals—that is gathered
+                                        periodically to facilitate the provision of software updates, product support, and other services to you (if any) related to the Licensed Application.</p>
+
+                                    <h5 class="mt-4">c. Termination</h5>
+                                    <p>This Standard EULA is effective until terminated by you or Licensor. Your rights under this Standard EULA will terminate automatically if you fail to comply with any of its terms.</p>
+
+                                    <h5 class="mt-4">d. External Services</h5>
+                                    <p>The Licensed Application may enable access to Licensor's and/or third-party services and websites (collectively and individually, "External Services"). You agree to use the External Services at your sole risk. Licensor
+                                        is not responsible for examining or evaluating the content or accuracy of any third-party External Services, and shall not be liable for any such third-party External Services.</p>
+
+                                    <h5 class="mt-4">e. NO WARRANTY</h5>
+                                    <p>YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE LICENSED APPLICATION IS AT YOUR SOLE RISK. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED APPLICATION AND ANY SERVICES PERFORMED OR PROVIDED BY THE
+                                        LICENSED APPLICATION ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.</p>
+
+                                    <h5 class="mt-4">f. Limitation of Liability</h5>
+                                    <p>TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT SHALL LICENSOR BE LIABLE FOR PERSONAL INJURY OR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                                        OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE LICENSED APPLICATION.</p>
+
+                                    <h5 class="mt-4">g. Export Restrictions</h5>
+                                    <p>You may not use or otherwise export or re-export the Licensed Application except as authorized by United States law and the laws of the jurisdiction in which the Licensed Application was obtained.</p>
+
+                                    <h5 class="mt-4">h. Government End Users</h5>
+                                    <p>The Licensed Application and related documentation are "Commercial Items", as that term is defined at 48 C.F.R. §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation".</p>
+
+                                    <h5 class="mt-4">i. Governing Law</h5>
+                                    <p>This Agreement and the relationship between you and Apple shall be governed by the laws of the State of California, excluding its conflicts of law provisions. You and Apple agree to submit to the personal and exclusive
+                                        jurisdiction of the courts located within the county of Santa Clara, California.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Privacy Policy Accordion -->
+                <div class="mb-4">
+                    <div class="accordion" id="privacyAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="privacyHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#privacyCollapse" aria-expanded="false" aria-controls="privacyCollapse">
+                                    Privacy Policy
+                                </button>
+                            </h2>
+                            <div id="privacyCollapse" class="accordion-collapse collapse" aria-labelledby="privacyHeading" data-bs-parent="#privacyAccordion">
+                                <div class="accordion-body">
+                                    <h4>Privacy Policy</h4>
+                                    <p class="text-small text-muted mb-4">Last updated: May 29, 2025</p>
+
+                                    <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+                                    <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+                                    <h5 class="mt-4">Interpretation and Definitions</h5>
+                                    <h6 class="mt-3">Interpretation</h6>
+                                    <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+
+                                    <h6 class="mt-3">Definitions</h6>
+                                    <p>For the purposes of this Privacy Policy:</p>
+                                    <ul class="mb-4">
+                                        <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
+                                        <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party.</li>
+                                        <li><strong>Application</strong> refers to Hourglass, the software program provided by the Company.</li>
+                                        <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Hourglass.</li>
+                                        <li><strong>Country</strong> refers to: Ontario, Canada</li>
+                                        <li><strong>Device</strong> means any device that can access the Service such as a computer, cellphone or digital tablet.</li>
+                                        <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
+                                        <li><strong>Service</strong> refers to the Application.</li>
+                                        <li><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company.</li>
+                                        <li><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service.</li>
+                                        <li><strong>You</strong> means the individual accessing or using the Service.</li>
+                                    </ul>
+
+                                    <h5 class="mt-4">Collecting and Using Your Personal Data</h5>
+                                    <h6 class="mt-3">Types of Data Collected</h6>
+
+                                    <h6 class="mt-3">Personal Data</h6>
+                                    <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited
+                                        to:
+                                    </p>
+                                    <ul>
+                                        <li>Usage Data</li>
+                                    </ul>
+
+                                    <h6 class="mt-3">Usage Data</h6>
+                                    <p>Usage Data is collected automatically when using the Service and may include:</p>
+                                    <ul class="mb-4">
+                                        <li>Your Device's Internet Protocol address (e.g. IP address)</li>
+                                        <li>Browser type and version</li>
+                                        <li>The pages of our Service that You visit</li>
+                                        <li>Time and date of Your visit</li>
+                                        <li>Time spent on those pages</li>
+                                        <li>Unique device identifiers and other diagnostic data</li>
+                                    </ul>
+
+                                    <h6 class="mt-3">Use of Your Personal Data</h6>
+                                    <p>The Company may use Personal Data for the following purposes:</p>
+                                    <ul class="mb-3">
+                                        <li>To provide and maintain our Service</li>
+                                        <li>To manage Your Account</li>
+                                        <li>For the performance of a contract</li>
+                                        <li>To contact You</li>
+                                        <li>To provide You with news, special offers and general information</li>
+                                        <li>To manage Your requests</li>
+                                        <li>For business transfers</li>
+                                        <li>For other business purposes</li>
+                                    </ul>
+
+                                    <h6 class="mt-3">Sharing Your Personal Data</h6>
+                                    <p>We may share Your personal information in the following situations:</p>
+                                    <ul class="mb-4">
+                                        <li><strong>With Service Providers:</strong> To monitor and analyze use of our Service</li>
+                                        <li><strong>For business transfers:</strong> In connection with any merger or sale of company assets</li>
+                                        <li><strong>With Affiliates:</strong> With our parent company and subsidiaries</li>
+                                        <li><strong>With business partners:</strong> To offer You certain products, services or promotions</li>
+                                        <li><strong>With other users:</strong> When You interact in public areas</li>
+                                        <li><strong>With Your consent:</strong> For any other purpose with Your consent</li>
+                                    </ul>
+
+                                    <h6 class="mt-3">Retention of Your Personal Data</h6>
+                                    <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy.</p>
+
+                                    <h6 class="mt-3">Transfer of Your Personal Data</h6>
+                                    <p>Your information may be transferred to — and maintained on — computers located outside of Your jurisdiction where data protection laws may differ.</p>
+
+                                    <h6 class="mt-3">Delete Your Personal Data</h6>
+                                    <p>You have the right to delete or request assistance in deleting Personal Data We have collected about You.</p>
+
+                                    <h6 class="mt-3">Disclosure of Your Personal Data</h6>
+                                    <p>The Company may disclose Your Personal Data in good faith belief that such action is necessary to:</p>
+                                    <ul class="mb-4">
+                                        <li>Comply with a legal obligation</li>
+                                        <li>Protect and defend the rights or property of the Company</li>
+                                        <li>Prevent or investigate possible wrongdoing</li>
+                                        <li>Protect the personal safety of Users</li>
+                                        <li>Protect against legal liability</li>
+                                    </ul>
+
+                                    <h6 class="mt-3">Security of Your Personal Data</h6>
+                                    <p>While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
+
+                                    <h5 class="mt-4">Children's Privacy</h5>
+                                    <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.</p>
+
+                                    <h5 class="mt-4">Links to Other Websites</h5>
+                                    <p>Our Service may contain links to other websites that are not operated by Us. We have no control over and assume no responsibility for their content.</p>
+
+                                    <h5 class="mt-4">Changes to this Privacy Policy</h5>
+                                    <p>We may update Our Privacy Policy from time to time. We will notify You of changes by posting the new Privacy Policy on this page.</p>
+
+                                    <h5 class="mt-4">Contact Us</h5>
+                                    <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+                                    <ul>
+                                        <li>By email: <a href="mailto:jaredsappstudio@gmail.com">jaredsappstudio@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- License Accordion -->
+                <div class="mb-4">
+                    <div class="accordion" id="licenseAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="licenseHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#licenseCollapse" aria-expanded="false" aria-controls="licenseCollapse">
+                                    Software License
+                                </button>
+                            </h2>
+                            <div id="licenseCollapse" class="accordion-collapse collapse" aria-labelledby="licenseHeading" data-bs-parent="#licenseAccordion">
+                                <div class="accordion-body">
+                                    <h4>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</h4>
+                                    <p class="text-muted mb-4"><small>Full legal code of the CC BY-NC-ND 4.0 license</small></p>
+
+                                    <div class="alert alert-light mb-4">
+                                        <p><strong>Notice:</strong> This is the human-readable summary of the license (the "deed"), not the actual license text. The full legal code is provided below.</p>
+                                    </div>
+
+                                    <h5 class="mt-4">You are free to:</h5>
+                                    <ul>
+                                        <li><strong>Share</strong> — copy and redistribute the material in any medium or format</li>
+                                    </ul>
+                                    <p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p>
+
+                                    <h5 class="mt-4">Under the following terms:</h5>
+                                    <ul>
+                                        <li><strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor
+                                            endorses you or your use.</li>
+                                        <li><strong>NonCommercial</strong> — You may not use the material for commercial purposes.</li>
+                                        <li><strong>NoDerivatives</strong> — If you remix, transform, or build upon the material, you may not distribute the modified material.</li>
+                                        <li><strong>No additional restrictions</strong> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+                                    </ul>
+
+                                    <h5 class="mt-4">Full Legal Code</h5>
+                                    <div class="license-legalcode">
+                                        <h6 class="mt-3">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License</h6>
+                                        <p>By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License ("Public
+                                            License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You
+                                            such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.</p>
+
+                                        <h6 class="mt-4">Section 1 – Definitions</h6>
+                                        <ol type="a">
+                                            <li><strong>Adapted Material</strong> means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material.</li>
+                                            <li><strong>Copyright and Similar Rights</strong> means copyright and/or similar rights closely related to copyright.</li>
+                                            <li><strong>Effective Technological Measures</strong> means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright
+                                                Treaty.</li>
+                                            <li><strong>Exceptions and Limitations</strong> means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights.</li>
+                                            <li><strong>Licensed Material</strong> means the artistic or literary work, database, or other material to which the Licensor applied this Public License.</li>
+                                            <li><strong>Licensed Rights</strong> means the rights granted to You subject to the terms and conditions of this Public License.</li>
+                                            <li><strong>Licensor</strong> means the individual(s) or entity(ies) granting rights under this Public License.</li>
+                                            <li><strong>NonCommercial</strong> means not primarily intended for or directed towards commercial advantage or monetary compensation.</li>
+                                            <li><strong>Share</strong> means to provide material to the public by any means or process that requires permission under the Licensed Rights.</li>
+                                            <li><strong>Sui Generis Database Rights</strong> means rights other than copyright resulting from Directive 96/9/EC of the European Parliament.</li>
+                                            <li><strong>You</strong> means the individual or entity exercising the Licensed Rights under this Public License.</li>
+                                        </ol>
+
+                                        <h6 class="mt-4">Section 2 – Scope</h6>
+                                        <ol type="a">
+                                            <li>
+                                                <strong>License grant</strong>:
+                                                <ol>
+                                                    <li>Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights
+                                                        in the Licensed Material to reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only.</li>
+                                                    <li>Exceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply.</li>
+                                                    <li>Term. The term of this Public License is specified in Section 6(a).</li>
+                                                    <li>Media and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created.</li>
+                                                    <li>Downstream recipients. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.</li>
+                                                    <li>No endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are connected with, or sponsored, endorsed, or granted official status by, the
+                                                        Licensor.</li>
+                                                </ol>
+                                            </li>
+                                            <li>
+                                                <strong>Other rights</strong>:
+                                                <ol>
+                                                    <li>Moral rights are not licensed under this Public License.</li>
+                                                    <li>Patent and trademark rights are not licensed under this Public License.</li>
+                                                    <li>To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights.</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+                                        <h6 class="mt-4">Section 3 – License Conditions</h6>
+                                        <p>Your exercise of the Licensed Rights is expressly made subject to the following conditions:</p>
+                                        <ol type="a">
+                                            <li>
+                                                <strong>Attribution</strong>:
+                                                <ol>
+                                                    <li>If You Share the Licensed Material, You must:
+                                                        <ol type="A">
+                                                            <li>retain the following if it is supplied by the Licensor with the Licensed Material:
+                                                                <ol type="i">
+                                                                    <li>identification of the creator(s) of the Licensed Material</li>
+                                                                    <li>a copyright notice</li>
+                                                                    <li>a notice that refers to this Public License</li>
+                                                                    <li>a notice that refers to the disclaimer of warranties</li>
+                                                                    <li>a URI or hyperlink to the Licensed Material</li>
+                                                                </ol>
+                                                            </li>
+                                                            <li>indicate if You modified the Licensed Material</li>
+                                                            <li>indicate the Licensed Material is licensed under this Public License</li>
+                                                        </ol>
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                            <li>
+                                                <strong>NoDerivatives</strong>:
+                                                <p>If You Share Adapted Material You produce, the Adapter's License You apply must not prevent recipients of the Adapted Material from complying with this Public License.</p>
+                                            </li>
+                                        </ol>
+
+                                        <h6 class="mt-4">Section 4 – Sui Generis Database Rights</h6>
+                                        <p>Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:</p>
+                                        <ol type="a">
+                                            <li>for the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only;</li>
+                                            <li>You must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.</li>
+                                        </ol>
+
+                                        <h6 class="mt-4">Section 5 – Disclaimer of Warranties and Limitation of Liability</h6>
+                                        <div class="alert alert-warning">
+                                            <ol type="a">
+                                                <li><strong>Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other.</strong></li>
+                                                <li><strong>To the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages.</strong></li>
+                                            </ol>
+                                        </div>
+
+                                        <h6 class="mt-4">Section 6 – Term and Termination</h6>
+                                        <ol type="a">
+                                            <li>This Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.</li>
+                                            <li>Where Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:
+                                                <ol>
+                                                    <li>automatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or</li>
+                                                    <li>upon express reinstatement by the Licensor.</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+                                        <h6 class="mt-4">Section 7 – Other Terms and Conditions</h6>
+                                        <ol type="a">
+                                            <li>The Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.</li>
+                                            <li>Any arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.</li>
+                                        </ol>
+
+                                        <h6 class="mt-4">Section 8 – Interpretation</h6>
+                                        <ol type="a">
+                                            <li>For the avoidance of doubt, this Public License does not reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.</li>
+                                            <li>To the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable.</li>
+                                            <li>No term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.</li>
+                                            <li>Nothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You.</li>
+                                        </ol>
+
+                                        <div class="mt-4">
+                                            <p><strong>Creative Commons Notice</strong></p>
+                                            <p>Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the
+                                                "Licensor". The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication.</p>
+                                            <p>Creative Commons may be contacted at <a href="https://creativecommons.org" target="_blank">creativecommons.org</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Jared Wogan. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="mailto:jaredsappstudio@gmail.com" class="text-white">Contact Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/common.js"></script>
+</body>
+
+</html>
