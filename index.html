@@ -122,8 +122,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="mb-4">Ready to Take Control of Your Time?</h2>
-                    <p class="lead mb-5">Hourglass is available now on the App Store and Google Play</p>
+                    <h2 class="mb-4text-center ">Ready to Take Control of Your Time?</h2>
+                    <p class="lead mb-5 text-center">Hourglass is available now on the App Store and Google Play</p>
 
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <!-- iOS Button -->
@@ -138,6 +138,32 @@
                             <span>Download</span>
                         </a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="text-center mb-4">Need Help?</h2>
+                <div class="card p-4">
+                    <form id="supportForm">
+                        <div class="mb-3">
+                            <label for="supportEmail" class="form-label">Your Email Address</label>
+                            <input type="email" class="form-control" id="supportEmail" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="supportMessage" class="form-label">How can we help?</label>
+                            <textarea class="form-control" id="supportMessage" rows="4" required></textarea>
+                        </div>
+                        <div class="d-grid gap-2 col-md-6 mx-auto">
+                            <button type="submit" class="btn download-btn text-white shadow-none" style="outline: none !important; box-shadow: none !important;">
+                            <i class="bi bi-envelope-fill me-2"></i> Send Support Request
+                        </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -498,15 +524,12 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Updated Footer -->
     <footer class="py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-md-start">
+                <div class="col-12 text-center">
                     <p class="mb-0">&copy; 2025 Jared Wogan. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <a href="mailto:jaredsappstudio@gmail.com" class="text-white">Contact Support</a>
                 </div>
             </div>
         </div>
@@ -516,6 +539,23 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="js/common.js"></script>
+
+    <!-- New Support Form Script -->
+    <script>
+        document.getElementById('supportForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const email = document.getElementById('supportEmail').value;
+            const message = document.getElementById('supportMessage').value;
+
+            // Encode the values for URL
+            const subject = encodeURIComponent("Hourglass Support Request");
+            const body = encodeURIComponent(`${message}\n\n---\nFrom: ${email}`);
+
+            // Open mail client
+            window.location.href = `mailto:jaredsappstudio@gmail.com?subject=${subject}&body=${body}`;
+        });
+    </script>
 </body>
 
 </html>
